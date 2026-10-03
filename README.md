@@ -2,6 +2,8 @@
 
 **Turn complex LLM/technical output into audience-fit explanations — 5 mechanism modules, one routing skill.**
 
+[![ClawHub](https://img.shields.io/badge/ClawHub-@lizhengbo95%2Fllm--output--explainer-FF6B35)](https://clawhub.ai/lizhengbo95/llm-output-explainer) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 [English](#english) · [中文](#中文)
 
 ---
@@ -26,9 +28,11 @@ Module D is **script-first by law**: narration is written and confirmed before a
 ### Install
 
 ```bash
-# OpenClaw
+# From ClawHub (recommended)
+openclaw skills install @lizhengbo95/llm-output-explainer
+
+# Or manually
 cp -r llm-output-explainer ~/.openclaw/workspace/skills/
-# or clone straight into your skills dir
 ```
 
 Module D requirements (video): `manim`, `edge-tts`, `ffmpeg`, a CJK font. Run the bundled check:
@@ -74,7 +78,12 @@ MIT. See [LICENSE](LICENSE).
 ### 安装与依赖
 
 ```bash
+# 通过 ClawHub 安装（推荐）
+openclaw skills install @lizhengbo95/llm-output-explainer
+
+# 或手动拷贝
 cp -r llm-output-explainer ~/.openclaw/workspace/skills/
+
 python3 scripts/env_check.py   # 视频模块环境自检
 ```
 
